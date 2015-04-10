@@ -13,9 +13,26 @@ Embed interactive charts and map from amCharts.com into your WordPress site
 
 [AmCharts](https://www.amcharts.com) is a set of stunningly charts for websites and web-based products. It's an advanced charting library that will suit any data visualization need. You can download the complete library or use the [Live Editor](https://live.amcharts.com) to make your charts online.
 
-Using the [Live Editor](https://live.amcharts.com) you can create beautiful interactive charts with a click of a few buttons. No development knowledge required. Just use the predefined chart templates, add your data and customize the appearance of the chart page, and share the result with the world.
+Using the [Live Editor](https://live.amcharts.com) you can [create](https://live.amcharts.com/new/) beautiful interactive charts with a click of a few buttons. No development knowledge required. Just use the predefined chart templates, add your data and customize the appearance of the chart page, save the chart and share the result with the world.
 
-Using "amCharts Embed" WordPress plugin you can embed charts and maps from "amCharts Live" to your WordPress site using nothing but the URL. Just copy the chart URL and paste it to the post text editor. Then simply click over to the visual editor to confirm that it loads properly.
+Using "amCharts Embed" WordPress plugin you can embed charts and maps, created by "amCharts Live Editor", into your WordPress site using nothing but the URL. Just copy the chart URL and paste it to the post text editor. Then simply click over to the visual editor to confirm that it loads properly.
+
+= Usage =
+
+**Embed charts using the regular Embed Code**
+
+Each item can be embedded using an iframe based embed code:
+`<iframe src="https://live.amcharts.com/NjEwN/embed/" width="600" height="400" frameborder="0"></iframe>`
+
+**Embed charts using this plugin**
+
+With this plugin you can use the item URL to embed your charts:
+`https://live.amcharts.com/NjEwN/`
+
+To set max `width` and max `height`, edit the item by double clicking the chart, and set the max dimentions. It will add the WordPress `[embed]` shortcode:
+`[embed width="600" height="400"]https://live.amcharts.com/NjEwN/[/embed]`
+
+**Note:** Doing it the WordPress way, using the `[embed]` shortcode, is backwards and forward compatible, and it works  with all the themes.
 
 == Installation ==
 
