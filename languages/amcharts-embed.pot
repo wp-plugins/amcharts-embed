@@ -22,7 +22,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Embed interactive charts and map from amCharts.com into your WordPress site"
+"Embed interactive charts and maps from amCharts.com into your WordPress site"
 msgstr ""
 
 #. Author of the plugin/theme
