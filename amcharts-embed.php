@@ -2,7 +2,7 @@
 /*
 Plugin Name: amCharts Embed
 Plugin URI:  https://wordpress.org/plugins/amcharts-embed/
-Description: Embed interactive charts and map from amCharts.com into your WordPress site
+Description: Embed interactive charts and maps from amCharts.com into your WordPress site
 Version:     1.0
 Author:      Rami Yushuvaev
 Author URI:  http://GenerateWP.com/
@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 /*
- * amCharts oEmbed
+ * Register oEmbed provider
  */
 function amcharts_oembed_provider() {
 
